@@ -9,7 +9,7 @@ Author: Tatsuya Fukata <tatsuya.fukata@gmail.com>
 
 function getConfig() {
   return {
-    folderId: '', // root folder
+    folderId: 'YOUR_BACKUP_FOLDER_ID', // Root Folder ID 
     now: new Date(),
   };
 }
