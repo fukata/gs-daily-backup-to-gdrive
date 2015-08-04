@@ -7,6 +7,7 @@ Daily Backup to GDrive. Backup to root_folder/yyyy/mm/dd
 ## How to
 
 1. Edit values in getConfig function.
+
         ```
         function getConfig() {
             return {
@@ -15,6 +16,7 @@ Daily Backup to GDrive. Backup to root_folder/yyyy/mm/dd
             }
         }
         ```
+
 2. Create script and paste main.gs in Google Spreadsheet.
 3. Run script.
 4. Set trigger.
