@@ -40,7 +40,7 @@ function fetchFile(config) {
 function createFolders(config) {
   var f1 = createFolder(DriveApp.getFolderById(config.folderId), config.now.getFullYear());
   var f2 = createFolder(f1, zeroPadding(config.now.getMonth() + 1));
-  return createFolder(f2, zeroPadding(config.now.getDay()));
+  return createFolder(f2, zeroPadding(config.now.getDate()));
 }
 
 function createFolder(folder, name) {
